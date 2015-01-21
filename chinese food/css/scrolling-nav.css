@@ -1,0 +1,252 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/*basic settings*/
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.img-responsive{
+    margin:15px 0 15px 0;   
+}
+
+/*navbar settings*/
+
+.navbar.navbar-default.navbar-fixed-top{
+    background-color: #fff;
+    border-bottom: #fff;
+    opacity: 0.8;
+}
+#navbar-toggle{
+    background-color: #58080d;
+    /*border-color: black;*/
+}
+#span1,#span2,#span3,#span4{
+    background-color:#fff;
+}
+#yuanbtn,#songbtn,#aboutbtn,#titleLogo{
+    color:#58080d;
+    font-weight: bold;
+}
+
+#navbar-toggle:hover,#navbar-toggle:active{
+    background-color: red;
+}
+#yuanbtn:hover,#songbtn:hover,#aboutbtn:hover{
+    color:red;
+    font-weight: bold;
+}
+#titleLogo:hover{
+    color:red;
+    font-weight: bold;
+}
+
+/*special class="activeNow"*/
+.active{
+    color:red;
+    font-weight: bold;
+    border-top: 2px solid red;
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    padding: 150px 0 150px 0;
+    text-align: center;
+    
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-radial-gradient(center, ellipse farthest-corner, #CC565B 0%, #7E1E24 100%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-radial-gradient(center, ellipse farthest-corner, #CC565B 0%, #7E1E24 100%);
+
+    /* Opera */ 
+    background-image: -o-radial-gradient(center, ellipse farthest-corner, #CC565B 0%, #7E1E24 100%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(radial, center center, 0, center center, 448, color-stop(0, #CC565B), color-stop(1, #7E1E24));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #CC565B 0%, #7E1E24 100%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: radial-gradient(ellipse farthest-corner at center, #CC565B 0%, #7E1E24 100%);
+
+
+}
+table{
+    text-align: left;
+}
+.aboutbg{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.colorList{
+    list-style-type: none;
+    list-style:none; 
+    padding-left:0;
+}
+.fa.fa-check-square{
+    color: #888;
+}
+.about-section {
+    padding: 150px 0 150px 0;
+    text-align: center;
+    background: #eee;
+
+
+    /* IE10 Consumer Preview */ 
+    /*background-image: -ms-radial-gradient(center, ellipse farthest-corner, #F9906F 0%, #B35C44 100%);*/
+
+    /* Mozilla Firefox */ 
+    /*background-image: -moz-radial-gradient(center, ellipse farthest-corner, #F9906F 0%, #B35C44 100%);*/
+
+    /* Opera */ 
+    /*background-image: -o-radial-gradient(center, ellipse farthest-corner, #F9906F 0%, #B35C44 100%);*/
+
+    /* Webkit (Safari/Chrome 10) */ 
+    /*background-image: -webkit-gradient(radial, center center, 0, center center, 448, color-stop(0, #F9906F), color-stop(1, #B35C44));*/
+
+    /* Webkit (Chrome 11+) */ 
+    /*background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #F9906F 0%, #B35C44 100%);*/
+
+    /* W3C Markup, IE10 Release Preview */ 
+    /*background-image: radial-gradient(ellipse farthest-corner at center, #F9906F 0%, #B35C44 100%);*/
+}
+
+.Song-section {
+    padding: 150px 0 150px 0;
+    text-align: center;
+    background: #fff;
+    background-color: #f3e7cb;
+}
+.SongRow{
+    margin:15px 0 15px 0;
+    text-align:left;
+    border-top: 1px #fff dotted;
+    
+}
+.colorcenter{
+    text-align: center;
+}
+.colorcenter:hover,.colorcenter:active{
+    background-color: #eee;
+}
+.colorSY{
+    width:70%;
+    line-height: 7em;
+    margin:10px auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.colorS1{
+    background-color: #D3B17D;
+    
+}
+.colorS2{
+    background-color: #E29C45;
+}
+.colorS3{
+    
+    background-color: #BE002F;
+}
+.colorS4{
+    background-color: #827100;
+}
+.colorS5{
+    background-color: #065279;
+}
+
+.colorY1{
+    background-color: #00E09E;
+    
+}
+.colorY2{
+    background-color: #BCE672;
+}
+.colorY3{
+    
+    background-color: #30DFF3;
+}
+.colorY4{
+    background-color: #CCA4E3;
+}
+.colorY5{
+    background-color: #F9906F;
+}
+
+.Yuan-section {
+    padding: 150px 0 150px 0;
+    text-align: center;
+    background-color:#a6f0b0;
+}
+.YuanRow{
+    margin:15px 0 15px 0;
+    text-align:left;
+    border-top: 1px #fff dotted;
+    
+}
+.final-section{
+    padding: 150px 0 150px 0;
+    text-align: center;
+    background-color: #FF8C31;
+}
+
+.btn-social.btn-outline {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: #58080d;
+    border: solid 2px #58080d;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+/*.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #58080d;
+    color: #58080d;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}*/
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #58080d;
+    color: #fff;
+    background: #CC565B;
+}
+.list-inline{
+    text-align: center;
+}
